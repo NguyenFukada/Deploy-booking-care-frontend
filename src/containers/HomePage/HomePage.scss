@@ -1,0 +1,167 @@
+.section-share{
+    height: 420px;
+    
+    .section-container {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+        .section-header{
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+            .title-section{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .btn-section{
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: #ebebeb;
+                color: black;
+                cursor: pointer;
+                text-transform: uppercase;
+                &:hover{
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+        
+
+            .slick-prev{
+                left: -10 !important;
+                z-index: 1000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                background: #fff !important;
+                border: 2px solid #d7d7d7 !important;
+                &:hover {
+                    background: #c0aeae !important;
+                }
+            }
+            
+            .slick-next{
+                margin-right: 15px !important;
+                z-index: 1000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                background: #fff !important;
+                border: 2px solid #d7d7d7 !important;
+                &:hover {
+                    background: #c0aeae !important;
+                }
+            }
+            .slick-disabled {
+                display: none !important;
+            }
+            .slick-next:before{
+                font-family: "Font Awesome" !important;
+                color: red !important;
+                //content: "\f060" !important;
+            }
+            
+            .slick-prev:before{
+                font-family: "Font Awesome" !important;
+                color: red !important;
+                // content: "\e257" !important;
+            }
+    }
+
+}
+.section-share{
+    &.section-specialty{
+        background: #f5f5f5;
+        
+    }
+    &.section-outstanding-doctor{
+        background: #f5f5f5;           
+    }
+    &.section-about{
+        height: 500px !important;
+        border-top: 1px solid #f5f5f5 ;
+        border-bottom: 1px solid #f5f5f5 ;
+    }
+    .section-body{
+        .section-customize{
+            .bg-image{
+                height: 278px;
+                width: 443px;
+                
+                background-color: #eee;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                // &.section-specialty{
+                //     //background: url('../../assets/Specialty/chi-phi-kham-tai-mui-hong-2.jpg');
+                // }
+                // &.section-medical-facility{
+                //     //background: url('../../assets/Medical-Facility/hospital-building-modern-parking-lot-59693686.jpg');
+                // }
+                &.section-outstanding-doctor{
+                    //background: url('../../assets/outstandingDoctor/istockphoto-92347250-612x612.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+                &.section-handbook
+                {
+                    background: url('../../assets/Handbook/NEW-Blog-Cover-13.png')
+                }
+               
+            }
+        }
+    }
+}
+.section-outstanding-doctor{
+    .outer-bg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .section-customize{
+        padding: 5px;
+        cursor: pointer;
+        .customize-border{
+            border: 1px solid #ed3d3d;
+            padding: 20px
+        }
+    }
+}
+//reser slick slider css
+.home-footer{
+    text-align: center;
+    padding-top: 8px;
+    a{
+        text-decoration: unset;
+    }
+    
+}
+.section-about{
+    padding: 0 100px;
+    .section-about-header {
+        /* margin: 0 100px; */
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .section-about-content{
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        .content-left {
+            width: 60%;
+        }
+        .content-right {
+            width: 40%;
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding-top: 25px;
+            }
+        }
+    }
+}
+

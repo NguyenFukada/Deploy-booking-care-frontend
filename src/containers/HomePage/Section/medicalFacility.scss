@@ -1,0 +1,13 @@
+.clinic-child{
+    .section-medical-facility{
+        border: 1px solid #c19898;
+    }
+    .clinic-name{
+        cursor: pointer;
+        padding: 10px 0;
+        font-size: 13px;
+        &:hover{
+            color: #45c3d2;
+        }
+    }
+}

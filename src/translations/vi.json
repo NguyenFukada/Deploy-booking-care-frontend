@@ -1,0 +1,125 @@
+{
+
+    "homeheader": {
+        "Specialty": "Chuyên Khoa",
+        "Find a doctor by specialty":"Tìm bác sĩ theo chuyên khoa",
+        "Health facilities": "Cơ sở y tế",
+        "Choose hospital's clinic": "Chọn bệnh viện phòng khám",
+        "Doctor": "Bác sĩ",
+        "Choose a good doctor": "Chon bác sĩ giỏi",
+        "Checkup package": "Gói khám",
+        "General health check": "Khám sức khỏe tổng quát",
+        "Welcome":"Xin chào, "
+        
+    },
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN"
+    },
+    "option": {
+        "option1":"Khám chuyên khoa",
+        "option2":"Khám từ xa",
+        "option3": "Khám tổng quát",
+        "option4": "Xét nghiệm y học",
+        "option5": "Sức khỏe tinh thần",
+        "option6": "Khám nha khoa"
+    },
+    "menu": {
+
+        "admin" : {
+            "manage-user": "Quản lý người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý Admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh bác sĩ",
+            "manage-patient": "Quản lý kế hoạch khám bệnh bệnh nhân "
+        }
+    },
+    "manage-user":{
+        "Add":"Thêm mới người dùng",
+        "Email":"Email",
+        "Password": "Mật khẩu",
+        "Firstname":"Tên",
+        "Lastname":"Họ",
+        "Gender":"Gioi tính",
+        "Address":"Địa chỉ",
+        "Phone-number":"Số điện thoại",
+        "Position":"Vị trí",
+        "RoleID":"RoleID",
+        "Image":"Hình ảnh",
+        "Save":"Lưu dữ liệu người dùng",
+        "Edit":"Lưu thay đổi"
+    },
+    "homepage": {
+        "Outstanding-doctor": "Bác sĩ nổi bật tuần qua",
+        "More-info": "Xem thêm",
+        "Specialties": "Chuyên Khoa Phổ Biến"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose_doctor": "Chọn Bác Sĩ",
+        "choose-date": "Chọn ngày",
+        "Save_info": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "no-schedule": "Không có lịch hẹn trong khoảng thời gian này. Vui lòng chọn thời gian khác !",
+            "choose": "Chọn ",
+            "book-free": " và đặt (miễn phí)"
+        },
+        "extra-infor-doctor": {
+            "address": "ĐỊA CHỈ KHÁM",
+            "price": " GIÁ KHÁM:",
+            "Detail Information": "Xem chi tiết",
+            "The-method-payment": "Người bệnh có thể thanh toán chi phí bằng hình thức:",
+            "Hide price": "Ẩn bảng giá"
+        },
+        "booking modal": {
+            "title": "Thông tin đặt lệnh khám bệnh",
+            "Fullname": "Họ và tên",
+            "Gender": "Giới tính",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên hệ",
+            "reason":"Lý do khám",
+            "birthday":"Ngày sinh",
+            "btn-confirm": "Xác nhận",
+            "priceBooking": "Miễn phí đặt lịch",
+            "price": "Giá khám:"
+
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin doctors",
+            "choose_doctor": "Chọn Bác Sĩ",
+            "intro": "Thông tin giới thiệu",
+            "add" : "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "nameClinic": "Tên phòng khám",
+            "addressClinic": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+
+
+            "specialty": "Chuyên khoa",
+            "select-clinic": "Chọn phòng khám"
+
+
+
+
+        }
+    }
+}

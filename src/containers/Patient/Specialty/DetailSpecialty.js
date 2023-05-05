@@ -26,6 +26,7 @@ class DetailSpecialty extends Component {
                 location: 'ALL'
             });
             let resProvince = await getAllCodeService('PROVINCE')
+           
             if (res && res.errCode === 0 && resProvince && resProvince.errCode === 0) {
                 let data = res.data;
                 let arrDoctorId = []
@@ -39,6 +40,7 @@ class DetailSpecialty extends Component {
                     }
                 }
                 let dataProvince = resProvince.data;
+                console.log("getAllCodeService PROVINCE: ", dataProvince);
                 if (dataProvince && dataProvince.length > 0) {
                     dataProvince.unshift({
                         createdAt: null,
@@ -97,6 +99,7 @@ class DetailSpecialty extends Component {
     render() {
         let { arrDoctorId, dataDetailSpecialty, listProvince } = this.state;
         let { language } = this.props;
+       
         return (
             <div className='detail-specialty-container'>
                 <HomeHeader />
